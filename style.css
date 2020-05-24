@@ -1,0 +1,149 @@
+body { 
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	color: #0097e6;
+	cursor: pointer;
+	transition: 0.5s;
+}
+h1:hover {
+	transform: scale(1.2);
+}
+.social-icons {
+	overflow: hidden;
+	width: 42%;
+	margin: auto;
+}
+.social-icons ul li {
+	list-style: none;
+	float: left;
+}
+.social-icons ul li a {
+	display: block;
+	height: 84px;
+	width: 84px;
+	background-image: url(images/social.png);
+}
+.first {
+	background-position: 0 0;
+	transition: 1s;
+}
+.first:hover {
+	background-position: 0 -84px;
+}
+
+.second {
+	background-position: -84px 0;
+	transition: 1s;
+}
+.second:hover {
+	background-position: -84px -84px;
+}
+
+.third {
+	background-position: -168px 0;
+	transition: 1s;
+}
+.third:hover {
+	background-position: -168px -84px;
+}
+
+.forth {
+	background-position: -252px 0;
+	transition: 1s;
+}
+.forth:hover {
+	background-position: -252px -84px;
+}
+
+.fifth {
+	background-position: -336px 0;
+	transition: 1s;
+}
+.fifth:hover {
+	background-position: -336px -84px;
+}
+
+.sixth {
+	background-position: -420px 0;
+	transition: 1s;
+}
+.sixth:hover {
+	background-position: -420px -84px;
+}
+
+
+.another-icons {
+	width: 40%;
+	margin: auto;
+}
+.another-icons ul li {
+	list-style: none;
+	float: left;
+}
+.another-icons ul li a {
+	display: block;
+	margin: 5px;
+	height: 59px;
+	width: 59px;
+	background-image: url(images/img.webp);
+}
+.icon-1 {
+	background-position: -47px -94px;
+	transition: 1s;
+}
+.icon-1:hover {
+	background-position: -47px -28px;
+}
+
+.icon-2 {
+	background-position: -107px -94px;
+	transition: 1s;
+}
+.icon-2:hover {
+	background-position: -107px -28px;
+}
+
+.icon-3 {
+	background-position: -167px -94px;
+	transition: 1s;
+}
+.icon-3:hover {
+	background-position: -167px -28px;
+}
+
+.icon-4 {
+	background-position: -229px -94px;
+	transition: 1s;
+}
+.icon-4:hover {
+	background-position: -229px -28px;
+}
+
+.icon-5 {
+	background-position: -289px -94px;
+	transition: 1s;
+}
+.icon-5:hover {
+	background-position: -289px -28px;
+}
+
+.icon-6 {
+	background-position: -349px -94px;
+	transition: 1s;
+}
+.icon-6:hover {
+	background-position: -349px -28px;
+}
+
+.icon-7 {
+	background-position: -410px -94px;
+	transition: 1s;
+}
+.icon-7:hover {
+	background-position: -410px -28px;
+}
+
